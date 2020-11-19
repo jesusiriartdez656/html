@@ -1,0 +1,16 @@
+hr {
+    border: blue;
+    border-top: 10px double yellow;
+    color: blue;
+    overflow: visible;
+    text-align: center;
+    height: 55px;
+}
+
+hr:after {
+    background: green;
+    content: '§';
+    padding: 0 68px;
+    position: relative;
+    top: -13px;
+}
